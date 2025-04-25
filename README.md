@@ -50,6 +50,14 @@ Your solution should include:
 The official SurrealDB deployment guide for Amazon EKS can be found here:
 [SurrealDB Amazon EKS Deployment Guide](https://surrealdb.com/docs/surrealdb/deployment/amazon)
 
+**Note:** The SurrealDB guide above may be outdated regarding the specific steps
+for deploying the underlying TiKV cluster. For deploying TiKV/TiDB within
+Kubernetes (EKS in this case), it's recommended to refer to the up-to-date
+documentation for the TiDB Operator, such as the deployment methods shown in the
+[TiDB Operator documentation](https://docs.pingcap.com/tidb-in-kubernetes/stable/).
+The goal is to integrate this Kubernetes deployment as part of the SST/Pulumi
+script.
+
 ## 🏗️ Project Structure
 
 ```
